@@ -1,0 +1,14 @@
+@media (min-width : 1170px){
+    body{
+        background-image: url(../obrazy/man-1.jpg);
+        background-position: left top;
+        background-size: cover;    
+        }
+    p{
+        color: white;
+        font-size: 25px;
+    }
+    p>span{
+        font-weight: 300;
+    }
+    }
