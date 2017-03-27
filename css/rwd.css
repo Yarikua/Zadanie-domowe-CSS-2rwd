@@ -1,14 +1,34 @@
 @media (min-width : 1170px){
     body{
         background-image: url(../obrazy/man-1.jpg);
-        background-position: left top;
-        background-size: cover;    
-        }
-    p{
+        background-size: cover;
+        display: inline-block;
+    }
+    #text{
         color: white;
-        font-size: 25px;
+        font-size: 48px;
+        font-family: arial;
+        
     }
     p>span{
-        font-weight: 300;
+        font-weight: 800;
+    }
+    }
+
+
+@media (min-width:992px) and (max-width:1170px){
+    body{
+        background-image: url(../obrazy/man-1.jpg);
+        background-size: 70% cover;
+        background-repeat: no-repeat;
+    }
+    #text{
+        text-align: right;
+        color: white;
+        font-size: 48px;
+        font-family: arial;    
+    }
+    p>span{
+        font-weight: 800;
     }
     }
