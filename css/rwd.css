@@ -1,34 +1,55 @@
 @media (min-width : 1170px){
-    body{
-        background-image: url(../obrazy/man-1.jpg);
-        background-size: cover;
-        display: inline-block;
+    html{
+        background-image: url(/obrazy/man-1.jpg);
+        background-size: contain;
+        height: 100%;
+        background-repeat: no-repeat;
     }
-    #text{
+    p{
         color: white;
-        font-size: 48px;
-        font-family: arial;
-        
+        text-align: left;
+        font-size: 25px;
+        padding-top: 36vh;
     }
     p>span{
-        font-weight: 800;
+        font-weight: 900;
     }
-    }
+}
 
 
 @media (min-width:992px) and (max-width:1170px){
-    body{
-        background-image: url(../obrazy/man-1.jpg);
-        background-size: 70% cover;
+    html{
+        background-image: url(/obrazy/man-2.jpg);
+        background-size: contain;
+        height: 70%;
         background-repeat: no-repeat;
     }
-    #text{
+/*
+    p{
         text-align: right;
-        color: white;
-        font-size: 48px;
-        font-family: arial;    
+        color: royalblue; 
     }
-    p>span{
-        font-weight: 800;
+*/
+}
+
+
+@media (max-width:992px){
+    html{
+        background-image: url(/obrazy/man-1.jpg);
+        background-size: contain;
+        height: 50%;
+        background-repeat: no-repeat;
+        position:relative;
     }
+/*
+    p{
+        text-align: center;
+        color:yellow;
+        position: absolute;
+            
     }
+*/
+}
+    
+    
+    
